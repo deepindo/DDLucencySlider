@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66A86C2F6C0E0D8E61DE7384 /* Pods_LucencySlider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6958EBEF7744CBCB6BB080D9 /* Pods_LucencySlider.framework */; };
+		8EBF28CB1EA512EC00AFF232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF28CA1EA512EC00AFF232 /* AppDelegate.swift */; };
+		8EBF28CD1EA512EC00AFF232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF28CC1EA512EC00AFF232 /* ViewController.swift */; };
+		8EBF28D01EA512EC00AFF232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF28CE1EA512EC00AFF232 /* Main.storyboard */; };
+		8EBF28D21EA512EC00AFF232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF28D11EA512EC00AFF232 /* Assets.xcassets */; };
+		8EBF28D51EA512EC00AFF232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF28D31EA512EC00AFF232 /* LaunchScreen.storyboard */; };
+		8EBF28DD1EA5AA8200AFF232 /* DDSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF28DC1EA5AA8200AFF232 /* DDSliderView.swift */; };
+		8EBF28DF1EA5AA9500AFF232 /* DDSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF28DE1EA5AA9500AFF232 /* DDSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59C43615047AD5BA823A8981 /* Pods-LucencySlider.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucencySlider.release.xcconfig"; path = "Pods/Target Support Files/Pods-LucencySlider/Pods-LucencySlider.release.xcconfig"; sourceTree = "<group>"; };
+		6958EBEF7744CBCB6BB080D9 /* Pods_LucencySlider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LucencySlider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FAA66F843B7E62C6A63226 /* Pods-LucencySlider.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LucencySlider.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LucencySlider/Pods-LucencySlider.debug.xcconfig"; sourceTree = "<group>"; };
+		8EBF28C71EA512EC00AFF232 /* LucencySlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LucencySlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBF28CA1EA512EC00AFF232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EBF28CC1EA512EC00AFF232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8EBF28CF1EA512EC00AFF232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EBF28D11EA512EC00AFF232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EBF28D41EA512EC00AFF232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EBF28D61EA512EC00AFF232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EBF28DC1EA5AA8200AFF232 /* DDSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDSliderView.swift; sourceTree = "<group>"; };
+		8EBF28DE1EA5AA9500AFF232 /* DDSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDSlider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBF28C41EA512EC00AFF232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A86C2F6C0E0D8E61DE7384 /* Pods_LucencySlider.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A8ECFC0E7BF27672A1E3729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6958EBEF7744CBCB6BB080D9 /* Pods_LucencySlider.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EBF28BE1EA512EC00AFF232 = {
+			isa = PBXGroup;
+			children = (
+				8EBF28C91EA512EC00AFF232 /* LucencySlider */,
+				8EBF28C81EA512EC00AFF232 /* Products */,
+				CDE64B70A82E9243F878D26D /* Pods */,
+				0A8ECFC0E7BF27672A1E3729 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBF28C81EA512EC00AFF232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF28C71EA512EC00AFF232 /* LucencySlider.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBF28C91EA512EC00AFF232 /* LucencySlider */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF28CA1EA512EC00AFF232 /* AppDelegate.swift */,
+				8EBF28CC1EA512EC00AFF232 /* ViewController.swift */,
+				8EBF28E01EA7639500AFF232 /* DDSliderView */,
+				8EBF28CE1EA512EC00AFF232 /* Main.storyboard */,
+				8EBF28D11EA512EC00AFF232 /* Assets.xcassets */,
+				8EBF28D31EA512EC00AFF232 /* LaunchScreen.storyboard */,
+				8EBF28D61EA512EC00AFF232 /* Info.plist */,
+			);
+			path = LucencySlider;
+			sourceTree = "<group>";
+		};
+		8EBF28E01EA7639500AFF232 /* DDSliderView */ = {
+			isa = PBXGroup;
+			children = (
+				8EBF28DC1EA5AA8200AFF232 /* DDSliderView.swift */,
+				8EBF28DE1EA5AA9500AFF232 /* DDSlider.swift */,
+			);
+			name = DDSliderView;
+			sourceTree = "<group>";
+		};
+		CDE64B70A82E9243F878D26D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88FAA66F843B7E62C6A63226 /* Pods-LucencySlider.debug.xcconfig */,
+				59C43615047AD5BA823A8981 /* Pods-LucencySlider.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBF28C61EA512EC00AFF232 /* LucencySlider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBF28D91EA512EC00AFF232 /* Build configuration list for PBXNativeTarget "LucencySlider" */;
+			buildPhases = (
+				A1674034E2326C3C6946B02E /* [CP] Check Pods Manifest.lock */,
+				8EBF28C31EA512EC00AFF232 /* Sources */,
+				8EBF28C41EA512EC00AFF232 /* Frameworks */,
+				8EBF28C51EA512EC00AFF232 /* Resources */,
+				4D2CEF735F6F3A970440D5A9 /* [CP] Embed Pods Frameworks */,
+				433AF9F0E53668CC0A5B1B52 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LucencySlider;
+			productName = LucencySlider;
+			productReference = 8EBF28C71EA512EC00AFF232 /* LucencySlider.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBF28BF1EA512EC00AFF232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = deepindo;
+				TargetAttributes = {
+					8EBF28C61EA512EC00AFF232 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = TZEHFE7VA2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8EBF28C21EA512EC00AFF232 /* Build configuration list for PBXProject "LucencySlider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EBF28BE1EA512EC00AFF232;
+			productRefGroup = 8EBF28C81EA512EC00AFF232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBF28C61EA512EC00AFF232 /* LucencySlider */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBF28C51EA512EC00AFF232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBF28D51EA512EC00AFF232 /* LaunchScreen.storyboard in Resources */,
+				8EBF28D21EA512EC00AFF232 /* Assets.xcassets in Resources */,
+				8EBF28D01EA512EC00AFF232 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		433AF9F0E53668CC0A5B1B52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucencySlider/Pods-LucencySlider-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D2CEF735F6F3A970440D5A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LucencySlider/Pods-LucencySlider-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1674034E2326C3C6946B02E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBF28C31EA512EC00AFF232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBF28DF1EA5AA9500AFF232 /* DDSlider.swift in Sources */,
+				8EBF28CD1EA512EC00AFF232 /* ViewController.swift in Sources */,
+				8EBF28DD1EA5AA8200AFF232 /* DDSliderView.swift in Sources */,
+				8EBF28CB1EA512EC00AFF232 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EBF28CE1EA512EC00AFF232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBF28CF1EA512EC00AFF232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EBF28D31EA512EC00AFF232 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBF28D41EA512EC00AFF232 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EBF28D71EA512EC00AFF232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EBF28D81EA512EC00AFF232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBF28DA1EA512EC00AFF232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FAA66F843B7E62C6A63226 /* Pods-LucencySlider.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZEHFE7VA2;
+				INFOPLIST_FILE = LucencySlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepindo.LucencySlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8EBF28DB1EA512EC00AFF232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59C43615047AD5BA823A8981 /* Pods-LucencySlider.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TZEHFE7VA2;
+				INFOPLIST_FILE = LucencySlider/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.deepindo.LucencySlider;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBF28C21EA512EC00AFF232 /* Build configuration list for PBXProject "LucencySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBF28D71EA512EC00AFF232 /* Debug */,
+				8EBF28D81EA512EC00AFF232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBF28D91EA512EC00AFF232 /* Build configuration list for PBXNativeTarget "LucencySlider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBF28DA1EA512EC00AFF232 /* Debug */,
+				8EBF28DB1EA512EC00AFF232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EBF28BF1EA512EC00AFF232 /* Project object */;
+}

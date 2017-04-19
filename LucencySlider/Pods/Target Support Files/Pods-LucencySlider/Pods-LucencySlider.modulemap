@@ -1,0 +1,6 @@
+framework module Pods_LucencySlider {
+  umbrella header "Pods-LucencySlider-umbrella.h"
+
+  export *
+  module * { export * }
+}
