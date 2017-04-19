@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         //ddSliderView.backgroundColor   = UIColor.clear
         
         //slider本身的背景颜色
-        //ddSliderView.ddSlider.backgroundColor = UIColor.darkGray
+        ddSliderView.ddSlider.backgroundColor = UIColor.darkGray
         
         //slider最小值路径的颜色
         ddSliderView.minimumTrackColor   = UIColor.blue
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
         ddSliderView.value               = 0.5
         
         //slider旋转角度，默认为水平方向，**建议水平垂直方向旋转
-        //ddSliderView.rotateAngle       = -M_PI_2
+        ddSliderView.rotateAngle       = -M_PI_2
         
         //sliderView整体的状态normal及LongPress状态
         //ddSliderView.ddSliderViewState = .LongPress
