@@ -54,7 +54,7 @@
     //ddSliderView.ddSliderViewState = .LongPress
         
 ## 四、尾声
-DDLucencySlider属于比较特别的一种需求，更多的是提供一种解决此类需求的方式。
+DDLucencySlider属于比较特别的一种需求，更多的是提供一种解决此类需求的一种思路。
 
 
 
