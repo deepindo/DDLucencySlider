@@ -4,7 +4,7 @@
 //
 //  Created by deepindo on 2017/4/17.
 //  Copyright © 2017年 deepindo. All rights reserved.
-//
+//  https://github.com/deepindo/DDLucencySlider
 
 import UIKit
 import SnapKit
